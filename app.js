@@ -9,16 +9,16 @@ app.set("view engine", "ejs");
 const campgrounds = [
   {
     name: "Salmon Creek",
-    image: "https://source.unsplash.com/8f_VQ3EFbTg"
+    image: "https://source.unsplash.com/3CscctLr2BM",
   },
   {
     name: "Dusty Pointe",
-    image: "https://source.unsplash.com/eDgUyGu93Yw"
+    image: "https://source.unsplash.com/eDgUyGu93Yw",
   },
   {
     name: "Granite Hill",
-    image: "https://source.unsplash.com/ebnlHkqfUHY"
-  }
+    image: "https://source.unsplash.com/ebnlHkqfUHY",
+  },
 ];
 
 app.get("/", (req, res) => {
