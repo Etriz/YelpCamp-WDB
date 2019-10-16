@@ -1,5 +1,6 @@
 const request = require("request");
 const bodyParser = require("body-parser");
+const mongoose = require("mongoose");
 const express = require("express");
 const app = express();
 
@@ -44,3 +45,5 @@ app.get("*", (req, res) => {
 app.listen("3000", () => {
   console.log("🔥YelpCamp online @ port 3000 ༼ つ ◕_◕ ༽つ");
 });
+
+// C:\Program Files\MongoDB\Server\4.2\bin
